@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    border: 5px solid limegreen;
+     padding: 20px; 
+    margin-right: 340px;
+     margin-left: 210px;
+    }
+
+img{
+     object-fit: cover;
+    width: 140px;
+    height: 700px;
+    padding: 10px;
+    border: 10px;
+   
+}
+#PR1{
+    border: 10px groove darkslategrey;
+    object-position:-200px 50px;
+}
+#PR2{
+    border: 10px groove darkgoldenrod;
+    object-position: -340px 10px;
+}
+
+#PR3{
+    border: 10px groove darkred;
+}
+#PR4{
+    border: 10px groove deeppink;
+    object-position: -620px 10px;
+}
+#PR5{
+    border: 10px groove blue;
+    object-position:-740px 50px ;
+
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+    text-shadow: 10px 10px 10px black;
+    font-size: 3rem;
+    background-color: darkslateblue;
+    border: 10px ridge red;
+}
+
+h1::first-letter{
+    font-size: 5rem;
+    color: crimson;
+}
+h1:hover{
+    color: white;
+    background-color: black;
+}
+
+#PR1:hover{
+    border:15px inset darkcyan;
+}
+#PR2:hover{
+    border:15px inset yellowgreen;
+}
+#PR3:hover{
+    border:15px inset crimson;
+}
+#PR4:hover{
+    border:15px inset palevioletred;
+}
+#PR5:hover{
+    border:15px inset dodgerblue;
+}
